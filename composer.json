@@ -1,0 +1,7 @@
+{
+  "name": "humanmade/shared-media-library",
+  "description": "WordPress plugin for a multisite shared media library ",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "require": {}
+}
