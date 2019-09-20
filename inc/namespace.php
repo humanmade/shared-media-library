@@ -231,10 +231,10 @@ function admin_enqueue_scripts() {
 		return;
 	}
 
-	$script_url = plugins_url( 'assets/build/js/media.js', dirname( __FILE__, 1 ) );
+	$script_url = plugins_url( 'build/media.js', dirname( __FILE__, 1 ) );
 
 	if ( SCRIPT_DEBUG ) {
-		$script_url = '//localhost:8080/client-mu-plugins/hm-shared-media-library/assets/build/js/media.js';
+		$script_url = '//localhost:8080/plugins/shared-media-library/build/media.js';
 	}
 
 	$script_dependencies = [
